@@ -1,4 +1,4 @@
-baseURL = 'https://bctools.dev/'
+baseURL = 'https://vlkozl.github.io'
 languageCode = 'en-us'
 title = 'Tools for Business Central'
 
@@ -12,6 +12,8 @@ hideHeader = false
 enabled = true
 showCurrentPage = true
 home = "Home"
+homeIntroTitle = 'Welcome to bctools.dev!'
+homeIntroContent = "I'm Vladimir Kozlov, a Software Engineer working with Microsoft Dynamics 365 Business Central."
 
 # Main menu pages
 [[params.menu]]
@@ -19,8 +21,6 @@ name = "home"
 url = "/"
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Welcome to bctools.dev!'
-homeIntroContent = "I'm Vladimir Kozlov, a Software Engineer working with Microsoft Dynamics 365 Business Central."
 
 [[params.menu]]
 name = "posts"

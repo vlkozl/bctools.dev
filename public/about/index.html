@@ -1,240 +1,205 @@
 <!DOCTYPE html>
-<html lang="en-us"
-  dir="ltr">
+<html lang="en-US" class="scroll-smooth dark">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About</title>
+<meta
+  name="description"
+  content="Hi, I&rsquo;m Vladimir Kozlov. I’m Software Engineer working with Microsoft Dynamics 365 Business Central (former Navision or Dynamics NAV)."
+/>
+<link rel="canonical" href="http://localhost:1313/about/" />
+<link rel="robots" href="/robots.txt" />
 
-
-
-<link rel="icon" type="image/ico" href="http://localhost:1313//favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313//android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//apple-touch-icon.png">
-
-<meta name="description" content=""/>
-
+<link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
 
 
-<title>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
+
+<link rel="stylesheet" href="http://localhost:1313/css/app.css" /></head>
+
+  <body class="max-w-screen-md mx-auto px-2.5">
+    <div class="header">
+      <header class="flex flex-col sm:flex-row items-center gap-5 sm:gap-10 pt-16 py-12">
+   
+
+
+<div class="flex-none w-20 h-20 rounded-full overflow-hidden">
+  <a href="http://localhost:1313/">
+    <img
+      srcset="/img/profile-picture_hu_30246a57bda6fc9c.jpg 80w"
+      src="/img/profile-picture.jpg"
+      width="1080"
+      height="1080"
+      alt="Tools for Business Central"
+    />
+  </a>
+</div>
+
+  
+  <div class="flex flex-col gap-5">
+    <a href="http://localhost:1313/">
+  <h1 id="site-title">Tools for Business Central</h1>
+</a>
+ 
+    <nav>
+  <ul>
+     
     
-    About | Tools for Business Central
+    <li>
+      <a href="/" class="">
+        Home
+      </a>
+    </li>
     
-</title>
-
-<link rel="canonical" href="http://localhost:1313/about/"/>
-
-<meta property="og:url" content="http://localhost:1313/about/">
-  <meta property="og:site_name" content="Tools for Business Central">
-  <meta property="og:title" content="About">
-  <meta property="og:description" content="Hi, my name is Vladimir Kozlov. I’m Software Engineer working with Microsoft Dynamics 365 Business Central (former Navision or Dynamics NAV).">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2025-07-22T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-07-22T00:00:00+00:00">
-
-
-
-
-
-
-
-
-<link rel="stylesheet" href="/assets/combined.min.013f2ec38cea8e5e0ec1eb9e6048c28622524f63a910b746c54625882b200de9.css" media="all">
-
-
-
-
-
-</head>
-
-
-
-
-
-<body class="auto">
-
-  <div class="content">
-    <header>
-      
-
-<div class="header">
-
+    <li>
+      <a href="/posts" class="">
+        posts
+      </a>
+    </li>
     
+    <li>
+      <a href="/projects" class="">
+        Projects
+      </a>
+    </li>
+    
+    <li>
+      <a href="/about" class=" active ">
+        About me
+      </a>
+    </li>
+    
+    <li>
+      <a href="/tags" class="">
+        Tags
+      </a>
+    </li>
+    
+  </ul>
+</nav>
 
-    <h1 class="header-title">
-        <a href="http://localhost:1313/">Tools for Business Central</a>
-    </h1>
+  </div>
+</header>
 
-    <div class="flex">
-        
+      <button class="toggle-theme" aria-label="Toggle Theme" title="Toggle Theme" onclick="toggleTheme()">
+  <span class="theme-icon light"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+</svg> </span>
+  <span class="theme-icon dark"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+</svg> </span>
+</button>
 
-        
-        
-      
-        <p class="small ">
-            <a href="/" >
-                /home
-            </a>
-        </p>
-        
-      
-        <p class="small ">
-            <a href="/posts" >
-                /posts
-            </a>
-        </p>
-        
-      
-        <p class="small  bold ">
-            <a href="/about" >
-                /about
-            </a>
-        </p>
-        
-        
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const theme = localStorage.getItem('theme');
+
+    if (!theme || theme === 'light') {
+      setTheme('light');
+    } else {
+      setTheme(theme);
+    }
+  });
+
+  function setTheme(theme) {
+    const html = document.querySelector('html');
+    localStorage.setItem('theme', theme);
+
+    if (theme === 'light') {
+      if (html.classList.contains('dark')) {
+        document.querySelector('html').classList.remove('dark');
+      }
+
+      document.querySelector('.theme-icon.light').style.display = 'none';
+      document.querySelector('.theme-icon.dark').style.display = 'block';
+    } else {
+      if (!html.classList.contains('dark')) {
+        document.querySelector('html').classList.add('dark');
+      }
+
+      document.querySelector('.theme-icon.dark').style.display = 'none';
+      document.querySelector('.theme-icon.light').style.display = 'block';
+    }
+  }
+
+  function toggleTheme() {
+    const theme = localStorage.getItem('theme');
+
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  }
+</script>
     </div>
+  
+    <main id="content">
 
-    
+<article class="flex flex-col gap-10">
+  <header class="flex flex-col gap-2">
+    <h2 class="title-large">About</h2>
 
-</div>
-
-    </header>
-
-    <main class="main">
+    <div class="meta">
       
+      <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" title='Mon, Jan 1, 0001, 12:00 AM UTC'>
+        01/01/0001 - Estimated reading time: 1 minutes
+      </time>
 
-
-
-
-
-<div class="breadcrumbs">
-    
-    <a href="/">Home</a>
-    <span class="breadcrumbs-separator"> > </span>
-    
-    <a class="breadcrumbs-current" href="/about/">About</a>
-</div>
-
-
-
-<div >
-
-  <div class="single-intro-container">
-
-    
-
-    <h1 class="single-title">About</h1>
-    
-
-    
-
-    <p class="single-readtime">
+       
       
-      
-      
-      <time datetime="2025-07-22T00:00:00&#43;00:00">July 22, 2025</time>
-      
-
-      
-    </p>
-
-  </div>
+    </div>
+  </header>
 
   
 
-  
+  <section><p>Hi, I&rsquo;m Vladimir Kozlov. I’m Software Engineer working with Microsoft Dynamics 365 Business Central (former Navision or Dynamics NAV).</p>
+</section>
 
   
-
+    
   
-
-  <div class="single-content">
-    <p>Hi, my name is Vladimir Kozlov. I&rsquo;m Software Engineer working with Microsoft Dynamics 365 Business Central (former Navision or Dynamics NAV).</p>
 
     
-  </div>
-
   
 
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-  <div class="back-to-top">
-    <a href="#top">
-      back to top
-    </a>
-  </div>
-  
-
-</div>
-
-
-    </main>
-  </div>
 
   <footer>
     
-
-    
-    <p>Powered by
-        <a href="https://gohugo.io/">Hugo</a>
-        and
-        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
-    </p>
-    
-    
-    
-
-
   </footer>
+</article>
 
-  
 
-</body>
+    </main><footer class="pt-5 pb-10 grid gap-3 sm:grid-cols-2">
+    <div class="text-xs font-semibold text-gray-500 order-2 sm:order-1">
+  © 2025 —
+  <a href="http://localhost:1313/">Tools for Business Central</a> 
+  <span class="font-normal">with</span>
+  <a
+    href="https://github.com/nixentric/Lowkey-Hugo-Theme"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Lowkey
+  </a>
+</div>
 
-<script>
+    <div class="order-1 sm:order-2">
+  <ul class="flex sm:justify-end gap-5">
+    
+    
+    <li>    
+      <a href="https://github.com/vlkozl" target="_blank" rel="me noopener noreferrer">GitHub</a>
+    </li>
+    
+    
+  </ul>
+</div>
 
-  function isAuto() {
-    return document.body.classList.contains("auto");
-  }
-
-  function setTheme() {
-    if (!isAuto()) {
-      return
-    }
-
-    document.body.classList.remove("auto");
-    let cls = "light";
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      cls = "dark";
-    }
-
-    document.body.classList.add(cls);
-  }
-
-  function invertBody() {
-    document.body.classList.toggle("dark");
-    document.body.classList.toggle("light");
-  }
-
-  if (isAuto()) {
-    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
-  }
-
-  setTheme();
-
-</script>
-
-<script defer src="/js/copy-code.js"></script>
+</footer></body>
 </html>
